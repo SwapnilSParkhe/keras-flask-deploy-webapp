@@ -91,7 +91,7 @@ def model_predict(img_path, model):
       string_out=tokens_2.capitalize()
       return string_out
 
-    caption_=Cap_first_word(a)
+    caption_=Cap_first_word(caption)
     return caption_
   
 @app.route('/', methods=['GET'])
